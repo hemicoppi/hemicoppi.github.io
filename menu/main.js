@@ -24,14 +24,6 @@ class MobileMenu{
 }
 new MobileMenu()
 
-//スライダー
-const mySwiper = new Swiper('.swiper-container', {
-  // Optional parameters
-  //direction: 'vertical',
-  loop: true,
-  effect: 'fade'
-})
-
 $(function (){
   $("img.photo").hover(function(){
     $(this).stop().animate({"opacity":"0.7"});
